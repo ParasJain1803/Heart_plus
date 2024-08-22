@@ -1,0 +1,221 @@
+element.style {
+}
+:root {
+  --global_main_color_rgba_02: rgba(177, 43, 36, 0.2);
+}
+@media (max-width: 767px) {
+  :root {
+    --mainNavMobileHeight: 60px;
+  }
+}
+:root {
+  --homepage_padding_bottom: calc(
+    50px + var(--homepage_layout_height_opacity_space_top) +
+      var(--homepage_layout_height_opacity_space_bottom)
+  );
+}
+:root {
+  --homepage_padding_top: 50px;
+}
+:root {
+  --homepage_layout_height_menu_space: 90px;
+}
+:root {
+  --mainNavHeight: 90px;
+  --scrollHeaderSize: 70px;
+}
+:root {
+  --home_text_color_rgba_01: rgba(255, 255, 255, 0.1);
+}
+@media only screen and (min-width: 480px) {
+  :root {
+    --home_text_size_px_media: calc(
+      var(--home_text_size) * (100vw / 1170) + 8px
+    );
+    --home_text_size_2_px_media: calc(
+      var(--home_text_size_2) * (100vw / 1170) + 8px
+    );
+    --slogan_text_size_px_media: calc(
+      var(--slogan_text_size) * (100vw / 1170) + 8px
+    );
+  }
+}
+@media only screen and (min-width: 1px) {
+  :root {
+    --home_text_size_px_media: calc(
+      var(--home_text_size) * (100vw / 1170) + 8px
+    );
+    --home_text_size_2_px_media: calc(
+      var(--home_text_size_2) * (100vw / 1170) + 8px
+    );
+    --slogan_text_size_px_media: calc(
+      var(--slogan_text_size) * (100vw / 1170) + 8px
+    );
+  }
+}
+:root {
+  --global_main_color_rgba_07: rgba(177, 43, 36, 0.7);
+}
+:root {
+  --global_main_color: #b12b24;
+  --global_main_color_btn_text_color: #f6d6d5;
+  --home_text_color: #ffffff;
+  --home_third_background_color: #000000;
+  --home_custom_image_size: px;
+  --home_custom_image_width: px;
+  --home_text_size_px: 70px;
+  --home_text_size_2_px: 45px;
+  --slogan_text_size_px: 22px;
+  --home_text_size: 70;
+  --home_text_size_2: 45;
+  --slogan_text_size: 22;
+  --home_text_size_px_media: 70px;
+  --home_text_size_2_px_media: 45px;
+  --slogan_text_size_px_media: 22px;
+  --layout_text_align: center;
+  --layout_text_align_rtl: center;
+  --layout_text_box_width: 100%;
+  --layout_left_side_width: 50%;
+  --layout_left_side_width_vh: 50vh;
+  --homepage_layout_height: 75%;
+  --homepage_layout_height_vh: 75vh;
+  --homepage_layout_height_menu_space: 0px;
+  --mainNavMobileHeight: 0px;
+  --homepage_layout_height_opacity_space_top: 0px;
+  --homepage_layout_height_opacity_space_bottom: 0px;
+  --mobileMenuFontSize: 20px;
+  --mobileMenuPagesSpace: 5px;
+  --homepageShapeDividerList_Size: 17%;
+  --layout_bottom_spacing: 0px;
+  --window-height: 100vh;
+  --window-width: 100vw;
+  --menu_font_size: 17px;
+  --menu_pages_space: 3px;
+  --menu_pages_side_padding: 15px;
+  --menu_pages_letter_spacing: 0.5px;
+  --menu_pages_word_spacing: 0px;
+  --menu_thin_border: #1b262c;
+  --mobileMenuTextAlign: center;
+  --menu_text_color: #f6d6d5;
+  --menu_text_hover_color: #f6d6d5;
+  --menu_color: #1b262c;
+  --modules_color_text: #000000;
+  --modules_color_text_second: #000000;
+  --inside_modules_color_text: #000000;
+  --sectionsPadding: 100px;
+  --home_text_top_space_1: 0px;
+  --home_text_bottom_space_1: 16px;
+  --home_text_top_space_2: 0px;
+  --home_text_bottom_space_2: 30px;
+}
+:root {
+  --c-t-a-buttons-space: 10px;
+}
+:root {
+  --font-size-clamp: clamp(1rem, 20vw, 3rem);
+  --font-size-title: 1.4rem;
+}
+:root {
+  --font-size-clamp: clamp(1rem, 20vw, 5.8rem);
+  --font-size-title: 1.6rem;
+}
+:root {
+  --global_main_color: #b12b24;
+  --global_main_color_btn_text_color: #f6d6d5;
+  --home_text_color: #ffffff;
+  --home_third_background_color: #000000;
+  --home_custom_image_size: px;
+  --home_custom_image_width: px;
+  --home_text_size_px: 70px;
+  --home_text_size_2_px: 45px;
+  --slogan_text_size_px: 22px;
+  --home_text_size: 70;
+  --home_text_size_2: 45;
+  --slogan_text_size: 22;
+  --home_text_size_px_media: 70px;
+  --home_text_size_2_px_media: 45px;
+  --slogan_text_size_px_media: 22px;
+  --layout_text_align: center;
+  --layout_text_align_rtl: center;
+  --layout_text_box_width: 100%;
+  --layout_left_side_width: 50%;
+  --layout_left_side_width_vh: 50vh;
+  --homepage_layout_height: 75%;
+  --homepage_layout_height_vh: 75vh;
+  --homepage_layout_height_menu_space: 0px;
+  --mainNavMobileHeight: 0px;
+  --homepage_layout_height_opacity_space_top: 0px;
+  --homepage_layout_height_opacity_space_bottom: 0px;
+  --mobileMenuFontSize: 20px;
+  --mobileMenuPagesSpace: 5px;
+  --homepageShapeDividerList_Size: 17%;
+  --layout_bottom_spacing: 0px;
+  --window-height: 100vh;
+  --window-width: 100vw;
+  --menu_font_size: 17px;
+  --menu_pages_space: 3px;
+  --menu_pages_side_padding: 15px;
+  --menu_pages_letter_spacing: 0.5px;
+  --menu_pages_word_spacing: 0px;
+  --menu_thin_border: #1b262c;
+  --mobileMenuTextAlign: center;
+  --menu_text_color: #f6d6d5;
+  --menu_text_hover_color: #f6d6d5;
+  --menu_color: #1b262c;
+  --modules_color_text: #000000;
+  --modules_color_text_second: #000000;
+  --inside_modules_color_text: #000000;
+  --sectionsPadding: 100px;
+  --home_text_top_space_1: 0px;
+  --home_text_bottom_space_1: 16px;
+  --home_text_top_space_2: 0px;
+  --home_text_bottom_space_2: 30px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+html,
+body {
+  font-size: 14px !important;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* html[Attributes Style] {
+    direction: ltr;
+    -webkit-locale: "en";
+} */
+[dir="ltr" i] {
+  unicode-bidi: isolate;
+}
+user agent stylesheet :root {
+  view-transition-name: root;
+}
+user agent stylesheet html {
+  display: block;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
