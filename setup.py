@@ -11,5 +11,6 @@ setup(
         'streamlit',
         'pandas',
         'joblib',
+        'scikit-learn',
     ],
 )
